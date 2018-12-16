@@ -1,0 +1,872 @@
+本帖题目类型：
+
+1）递归与分治
+
+2）动态规划
+
+3）贪心算法
+
+4）回溯算法
+
+5）图的搜索算法
+
+6）图论
+
+7）数论
+
+8）组合数学
+
+9）分支限界算法
+
+
+
+推荐网站：https://vjudge.net/
+
+
+
+下面给出各题型的部分例题。
+
+注：1.题目来源于ZOJ，POJ和HUD；
+
+        2.同一个题目可采用多种解法，本帖题目分类不代表最优解法。
+
+
+
+1、递归与分治（27）
+
+（1）汉诺塔类问题（7）
+
+ZOJ（3）：
+
+1239-Hanoi Tower Troubles Again!
+2338-The Towers of Hanoi Revisited
+2954-Hanoi Tower
+POJ（4）：
+1920-Towers of Hanoi
+3572-Hanoi Towers
+3601-Tower of Hanoi
+1958-Strange Towers of Hanoi
+（2）Fibonacci数列类问题（20）
+ZOJ（3）：
+
+1828-Fibonacci Numbers
+2060-Fibonacci Again
+2672-Fibonacci Subsequence
+HUD（17）：
+1021-Fibonacci Again
+1250-Hat's Fibonacci
+1316-How Many Fibs?
+1329-Hanoi Tower Troubles Again!
+1568-Fibonacci
+1588-Gauss Fibonacci
+1708-Fibonacci String
+1848-Fibonacci again and again2018一母牛的故事
+2070-Fibbonacci Number
+2814-Interesting Fibonacci
+2855-Filbonacci Check-up
+3054-Fibonacci
+3117-Fibonacci Numbers
+3306-Another kind of Fibonacci
+3509-Buge's Fibonacci Number Problem
+4099-Revenge of Fibonacci
+4786-Fibonacci Tree
+
+
+2、动态规划类问题（189题）
+ZOJ：
+1022—Parallel Expectations
+1025-Wooden Sticks
+1094-Matrix Chain Multiplication
+1136-Multiple
+1200-Mining
+1245-Triangles
+1249-Pushing Boxes
+1250-Always On the Run
+1276-Optimal Array Multiplication Sequence
+1303-Jury Compromise
+1346-Comparing Your Heroes
+1353-Unimodal Palindromic Decompositions
+1366-Cash Machine
+1368-BOAT
+1387-Decoding Morse Sequences
+1424-Painting A Board
+1425-Crossed Matchings
+1428-Magazine Delivery
+1446-Hyper- Prime Expression
+1449-Maximum Sum
+1454-Employment Planning
+1459-String Distance and Transform Process
+1462-Team Them Up!
+1403-Brackets Sequenee
+1470-lHow Many Trees?
+1474-Counter Strike
+1475-Ranklist
+1483-Robots
+1484-Minimum Inversion Number
+1490-Satellite Antenna
+1499-Increasing Sequences
+1503-One Person “The Price is Right”
+1512-Water Treatment Plants
+1515-Square Lottery
+1520-Duty Free Shop
+1521-Not Too Convex Hull
+1524-Supermarket
+1539-Lot
+1540-Censored!
+1551-Cricket Field
+1554-Folding
+1563-Pearls
+1571-Hexagon Mystery
+1579-Bridge
+1602-Multiplication Puzzle
+1607-Varacious Steve
+1611-Traveling in Solar System
+1629-Counting Triangles
+1638-Greedy Island
+1642-Match for Bonus
+1651-Parts Process
+1666-Square Coins
+1695-True Liars
+1713-Haiku Review
+1717-The Secret Number
+1731-Supermarket
+1733-Common Subsequence
+1736-Binary Polynomials
+1738-Lagrange's Four Square Theorem
+1743-Concert Hall Scheduling
+1756-Robots
+1757-Bright Bracelet
+1787-Tiling Up Blocks
+1792-Gap Punishment Aligment Problem
+1800-Decorations
+1819-Rhyme Schemes
+1853-The Brick Stops Here
+1864-Old Wine Into New Bottles
+1877-Bridge
+1880-Tug of War
+1893-A Multiplication Game
+1913-Euclid's Game
+1918-Ferry Loading Ⅱ
+1925-Dumb Bones
+1953-Advanced Fruits
+1983-Fold
+1985-Largest Rectangle in a Histogram
+1986-Bridging Signals
+1988-Gladiators
+1991-Prison Rearrangement
+1995-Spiderman
+2002-Copying Books
+2014-Piggy-Bank
+2025-I-Keyboard
+1667-Restaurant
+2058-The Archaeologist's Troutble 前
+2059-The Twin Towers
+2067-White Rectangles
+2068-Chopsticks
+2069-Greatest L-east Common Maltiple
+2081-Mission Impossible
+2089-Learn to Write
+2096-Door to Secret
+2115-Dangerous Pattern
+2118-Christopher's Rainy Day
+2127-Zuma
+2136-Longest Ordered Subsequence
+2142-Light The Square
+2144-Sending Gift
+2156-Charlie's Change
+2180-City Game
+2189—Exact Change Only
+2202-Alphacode
+2206-Roll Playing Games
+2180-City Game
+2189-Exact Change Only
+2202-Alphacode
+2206-Roll Playing Games
+2213-Fun Game
+2224-Square
+2227-Minimax Triangulation
+2242-Huffman's Greed
+2244-Land Division Tax
+2254-Island Country
+2255-Best Editor
+2264-Confusing Login Names
+2271-Chance to Encounter a Girl
+2278-Fight for Food
+2280-Key to Freedom
+2281-Way to Freedom
+2283-Challenge of Wisdom
+2284-Inversion Number
+2297-Survival
+2319-Beautiful People
+2337-Non Absorbing DFA
+2338-The Towers of Hanoi Revisited
+2341-Quantization Problem
+2349-Mix and Build
+2353-Special Experiment
+2354-Elevator Stopping Plan
+2042-Divisibility
+2422-Terrible Sets
+2424-Game of Connections
+2444-Bundling
+2498-Software Company
+2501-A Mini Locomotive
+2521-LED Display
+2522-Fellowship Activity
+2527-Series
+2536-Best Balance
+2547-Tri Tiling
+2561-Order-Preserving Codes
+2563-Long Dominoes
+2565-Cracking SSH
+2568-Counting Triangulations
+2581-Tour
+2591-DVD
+2598-Yet Another Digit
+2604-Little Brackets
+2621-Instructions
+2624-Popo's Lamps
+2625-Rearrange Them
+2626-Polygon Game
+2641-Exploring Pyramids
+2642-Feel Good
+2667-Joke with Turtles
+2673-Hexagon and Rhombic Dominoes
+2683-Marathon
+2685-UNISON
+2692-Dialing Dice
+2702-Unrhymable Rhymes
+2710-Two Pipelines
+2711-Regular Words
+2734-Exchange Cards
+2739-Color Quantization
+2744-Palindromes
+2745-01-K Code
+2758-Subtitle
+2771-Get Out of the Glass
+2780-Margaritas on the River Walk
+2800-Any Fool Can Do It
+2802-Help the Problem Setter
+2366-Weird Dissimilarity
+2372-Work Reduction
+2374-Marbles on a tree
+2397-Tian Ji-The Horse Racing
+2398-Islands and Bridges
+2401-Zipper
+2402-Lenny's Lucky Lotto Lists
+2414-Index of Prime
+2822-Sum of Diferent Primes
+2845-The Best Travel Design
+2852-Deck of Cards
+2860-Breaking Strings
+2869-Halls
+2872-Binary Partitions
+2882-Nested Dolls
+2884-Moogle
+2889-Vacation Rentals
+
+
+3、贪心算法类问题（79）
+
+ZOJ：（35）
+
+1117-Entropy
+1161-Gone Fishing
+1200-Mining
+1230-Hanoi Tower Troubles Again!
+1307-Packets
+1360-Radar Installation
+1375-Pass-Muraille
+1409-Communication System
+1543-Stripies
+2049-Advertisement
+2091-Mean of Subsequence
+2229-Ride to School
+2256-Mincost
+2315-New Year Bonus Grant
+2343-Robbers
+2354-Elevator Stopping Plan
+2378-Evil Straw Warts Live
+2397-Tian Ji-The Horse Racing
+2425-Inversion
+2488-Rotten Ropes
+2510-Concentric Rings
+2521-LED Display
+2536-Best Balance
+2541-Goods Transportation
+2702-Unrhymable Rhymes
+2710-Two Pipelines
+2833-Friendship
+2921-Stock
+3116-Loan Scheduling
+3197-Google Book
+3301-Make Pair
+3410-Layton's Escape
+3424-Rescue
+3433-Gu Jian Qi Tan
+3508-The War
+
+
+
+POJ：（44）
+
+1017-Packets
+1042-Gone Fishing
+1062一昂贵的聘礼
+1065-Wooden Sticks
+1125-Stockbroker Grapevine
+1230-Pass-Muraille
+1258-Agri-Net
+1323-Game Prediction
+1328-Radar Installation
+1456-Supermarket
+1679-The Unique MST
+1716-Integer Intervals
+1755-Triathlon
+1784-Huffman's Greed
+1789-Truck History
+1797-Heavy Transportation
+1860-Currency Exchange
+1861-Network
+1862-Stripies
+1922-Ride to School
+2054-Color a Tree
+2209-The King
+2240-Arbitrage
+2253-Frogger
+2287-Tian Ji-The Horse Racing
+2313-Sequence
+2325-Persistent Numbers
+2370-Democracy in danger
+2393-Yogurt factory
+2395-Out of Hay
+2431-Expedition
+2485-Highways
+2709-Painter
+3026-Borg Maze
+3228-Gold Transportation
+3253-Fence Repair
+3259-Wormholes
+3262-Protecting the Flowers
+3522-Slim Span
+3544-Journey with Pigs
+3614-Sunscreen
+3617-Best Cow Line
+3625-Building Roads
+3723-Conseription
+
+
+
+4、回溯算法（36）
+
+ZOJ：（15）
+
+1002-Fire Net
+1004-Anagrams by Stack
+1084-Channel Allocation
+1107-FatMouse and Cheese
+1204-Additive Equations
+1331-Perfect Cubes
+1457-Prime Ring Problem
+1711-Sum It Up(POJ1564)
+1909-Square(POJ2362)
+2103-Marco Popo the Traveler
+2418-Matrix(POJ2078)
+2580-Sudoku
+3316-Game
+3378-Attack the NEET Princess
+3516-Tree of Three
+
+
+
+POJ：（21）
+
+1010-Stamps
+1011-Sticks
+1020-Anniversary Cake
+1062一昂贵的聘礼
+1085-Triangle War
+1129-ChannelAllocation
+1166-The Clocks
+1167-The Buses
+1190一生日蛋糕
+1256-Anagram
+1315-Don't Get Rooked
+1321一棋盘问题
+1416-Shredding Company
+1699-Best Sequence
+1753-Flip Game
+1979-Red and Black
+1980-Unit Fraction Partition
+2400-Supervisor,Supervisee
+2488-A Knight's Journey
+2676-Sudoku
+2677-Tour
+
+
+
+5、图的搜索（98）
+
+ZOJ：（98）
+
+1144-Robbery
+1155-Triangle War
+1229-Gift?！
+1249-Pushing Boxes
+1297-Hexagon
+1301-The New Villa
+1344-A Mazing Problem
+1355-Dehuff
+1361-Holedox Moving
+1671-Walking Ant
+1675-Push!！
+1686-Young,Poor and Busy
+1709-Oil Deposits
+1711-Sum It Up
+1719-Square Carpets
+1742-Gap
+1832-File Fragmentation
+1909-Square
+1411-Anniversary
+1412-Tester Program
+1415-Puzzlestan
+1435-Deeper Blue
+1443-E-Puzzle Is Fun
+1457-Prime Ring Problem
+1479-Dweep
+1505-Solitaire
+1518-This Sentence is False
+1530-Find The Multiple
+1572-Bracelet
+1593-Fool Game
+1649-Rescue
+2233-Pollution
+2241-Fractran
+2252-Fly Flies
+2276-Lara Croft
+2288-Across the River
+2355-New Go Game
+2372-Work Reduction
+2374-Marbles on a Tree
+2412-Farm Irrigation
+2416-Open the Lock
+2418-Matrix
+2437-Nearest Number
+2440-One is Good,but Two is Bet
+2442-Simple Prefix Compression
+2466-Farmer Bill's Problem
+2471-Sea Battle
+2475-Benny's Compiler
+2477-Magic Cube
+2509-Box Pushing
+2515-Height of Water Tower
+2531-Traveller
+2534-Time Machine
+2580-Sudoku
+2588-Burning Bridges
+2594-Driving Straight
+2631-Chemfrog's Fairy Tale
+2633-Full of Painting Ⅱ
+1935-XYZZY
+1940-Dungeon Master
+1977-Hall of Fountains
+1984-Genetic Code
+2031-Song List
+2033-The Jewelry Is Gone
+2043-Loan
+2053-Domino Puzzle
+2093-Volcano
+2103-Marco Popo the Traveler
+2110-Tempter of the Bone
+2128-Seven Seas
+2165-Red and Black
+2688-Requirements
+2749-Polarium
+2765-Rotate and Connect
+2787-Children of the Candy Corn
+2799-European railroad tracks
+2821-Cubic Eight-Puzzle
+2823-Manhattan Wiring
+2825-Polygons on the Grid
+2859-Matrix Searching
+2868-Incredible Cows
+2879-Copying DNA
+2880-Circle of Debt
+2891-Team Work
+2898-Greedy Grave Robber
+2911-Hypertheseus
+2922-Bombs
+2925-DomiNo Grid
+2936-Electronic Document Security
+2938-Rock Skipping
+2951-Eccentric Warehouses
+2977-Strange Billboard
+3010-The Lamp Game
+3059-Die Board Game
+3094-Escape from Enemy Territory
+3110-Geophysics Prospection
+3158-Cut The Cake
+3196-Give me the Result
+
+
+
+6、图论（85）
+
+ZOJ：（43）
+1023-University Entrace Examination
+1059-What's In a Name
+1077-Genetic Combinations
+1157-A Plug for UNIX
+1197-Sorting Slides
+1231-Mysterious Mountain
+2332-Gems
+2333-MatScan
+2362-Beloved Sons
+2399-Jamie's Contact Groups
+2521-LED Display
+2532-Internship
+1364-Machine Schedule
+1516-Uncle Tom's Inherited Land
+1525-Air Raid
+1576-Marriage is Stable
+1626-Save These Poor Trees
+1654-Place the Robots
+1734-Power Network
+1760-Doubles
+1882-Gopher Ⅱ
+1992-Sightseeing Tour
+1994-Budget
+2067-White Rectangles
+2192-T-Shirt Gumbo
+2221-Taxi Cab Scheme
+2223-Card Game Cheater
+2314-Reactor Cooling
+2567-Trade
+2587-Unique Attack
+2616-Duopoly
+2760-How Many Shortest Path
+2788-Panic Room
+3037-Ladies'Choice
+3111-Domino Art
+3120-The Stable Marriage Problem
+3156-Taxi
+3229-Shoot the Bullet
+3305-Get Sauce
+3348-Schedule
+3460-Misile
+3496-Assignment
+3615-Choir Ⅱ
+
+
+
+POJ：（42）
+
+1087-A Plug for UNIX
+1149-PIGS
+1273-Synchronous Design
+1325-Machine Schedule
+1422-Air Raid
+1459-Power Network
+1486-Sorting Slides
+1637-Sightseeing Tour
+1698-Alice's Chance
+1719-Shooting Contest
+1815-Friendship
+1904-King's Quest
+1955-Rubik's Cube
+2060-Taxi Cab Scheme
+2112-Optimal Milking
+2135-Farm Tour
+2175-Evacuation Plan
+2226-Muddy Fields
+2239-Selecting Courses
+2289-Jamie's Contact Groups
+2391-Ombrophobic Bovines
+2400-Supervisor,Supervisee
+2407-Relatives
+2446-Chessboard
+2455-Secret Milking Machine
+2516-Minimum Cost
+2536-Gopher Ⅱ
+2594-Treasure Exploration
+3020-Antenna Placement
+3041-Asteroids
+3155-Hard Life
+3216-Repairing Company
+3281-Dining
+3308-Paratroopers
+3342-Party at Hali-Bula
+3422-Kaka's Matrix Travels
+3436-ACM Computer Factory
+3469-Dual Core CPU
+3498-March of the Penguins
+3565-Ants
+3680-Intervals
+3692-Kindergarten
+
+
+
+7、数论（117）
+
+ZOJ：（44）
+1095-Humble Numbers
+1133-Smith Numbers
+1136-Multiple
+1143-Date Bugs
+1222-Just the Facts
+1278-Pseudo-Random Numbers
+1284-Perfection
+1312-Prime Cuts
+1889-Ones
+1951-Goldbach's Conjecture
+2022-Factorial
+2095-Divisor Summation
+2286-Sum of Divisors
+2305-C Looooops
+2313-Chinese Girls'Amusement
+2421-Recaman's Sequence
+1314-Uniform Generator
+1385-Binary Stirling Numbers
+1408-The Fun Number System
+1489-2*mod n=1
+1526-Big Number
+1530-Find The Multiple
+1569-Partial Sums
+1577-GCD &LCM
+1596-Hamming Problem
+1657-Goldbach's Conjecture
+1712-Skew Binary
+1797-Least Common Multiple
+1842-Prime Distance
+1850-Factovisors
+2520-Amicable Pairs
+2545-Factstone Benchmark
+2674-Strange Limit
+2723-Semi-Prime
+2806-The Embarrassed Cryptographer
+2945-Remainder from Our Sponsor
+2964-Triangle
+3008-Gold Coins
+3014一9875321
+3024-Monday-Saturday Prime Factors
+3175-Number of Containers
+3254-Secret Code
+3621-Factorial Problem in Base K
+3687-The Review Plan I
+
+
+
+POJ：（30）
+
+1006-Biorhythms
+1061一青蛙的约会
+1150-The Last Non-zero Digit
+1152-An Easy Problem!
+1183一反正切函数的应用
+1284-Primitive Roots
+1365-Prime Land
+1528-Perfection
+1595-Prime Cuts
+1730-Perfect Pth Powers
+1845-Sumdiv
+1953-World Cup Noise
+2034-Anti-prime Sequences
+2142-The Balance
+2191-Mersenne Composite Numbers
+2262-Goldbach's Conjecture
+2407-Relatives
+2478-Farey Sequence
+2635-The Embarrassed Cryptographer
+2689-Prime Distance
+2739-Sum of Consecutive Prime Numbers
+2773-Happy 2006
+2992-Divisors
+3101-Astronomy
+3126-Prime Path
+3210-Coins
+3292-Semi-prime H-numbers
+3358-Period of an Infinite Binary Expansion
+3518-Prime Gap
+3641-Pseudoprime numbers
+
+
+
+HDU：（43）
+1058-Humble Numbers
+1124-Factorial
+1163-Eddy's digital Roots
+2554-N对数的排列问题
+2582-f(n)
+2588-GCD
+1214一圆桌会议
+1262一寻找素数对
+1286一找新朋友
+1319-Prime Cuts
+1370-Biorhythms
+1395-2*mod n=1
+1420-Prepared for New Acmer
+1492-The number of divisors about Humble Numbers
+1568-Fibonacci
+1573-X问题
+1576-A/B
+1695-GCD
+1716一排列2
+1788-Chinese Remainder Theorem Again
+2048-Lowest Common Multiple Plus
+1830-Remainder from Our Sponsor
+2136-Largest prime factor
+2142-Disney
+2161-Primes
+2608-0or 1
+2669-Romantic
+2674-NIAgain
+2824-The Euler Function
+2964-Prime Bases
+3187-HP Problem
+3501-Calculation 2
+3579-Hello Kiki
+3816-To Be NUMBER ONE
+4002-Find the Maximum
+4143-A Simple Problem
+4279-Number
+4398-Template Library Management
+4335-What is N?
+4483-Lattice triangle
+4586-Play the Dice
+4767-Bell
+4910-Problem about GCD
+
+
+
+8、组合数学（99）
+
+ZOJ：（23）
+1385-Binary Stirling Numbers
+1526-Big Number
+1577-GCD &LCM
+2000-Palindrome Numbers
+2060-Fibonacci Again
+2061-Buy the Ticket
+2098-Picking Balls
+2625-Rearrange Them
+2757-Sum of Continuous Subsequences
+2766-Rotate and Connect
+2836-Number Puzzle
+2659-Matrix Searching
+2955-Interesting Dart Game
+2996-(1+x)
+3233-Lucky Number
+3344-Card Game
+3556-How Many Sets I
+3638-Fruit Ninja
+3647-Gao the Grid
+3687-The Review Plan I
+3688-The Review Plan Ⅱ
+3725-Painting Storages
+
+POJ：（26）
+1014-Dividing
+1026-Cipher
+1037-A Decorative Fence
+1095-Trees Made to Order
+1221-Unimodal Palindromic Decompositions
+1306-Combinations
+1322-Chocolate
+1354-Placement of Keys
+1423-Big Number
+1430-Binary Stirling Numbers
+1496-Word Index
+1521-Entropy
+1580-String Matching
+1664一放苹果
+1792-Hexagonal Routes
+1942-Paths on a Grid
+2282-The Counting Problem
+2346-Lucky Tickets
+2773-Happy 2006
+3046-Ant Counting
+3088-Push Botton Lock
+3252-Round Numbers
+3370-Halloween Treats
+3695-Rectangles
+3734-Blocks
+3904-Sky Code
+
+
+HDU：（50）
+1028-Ignatius and the Princess Ⅲ
+1085-Holding Bin-Laden Captive!
+1171-Big Event in HDU
+1205一吃糖果
+1220-Cube
+1261一字串数
+1398-Square Coins
+3682-To Be an Dream Architect
+3929-Big Coefficients
+3944-DP?
+4043-FXTZ Ⅱ
+4045-Machine Scheduling
+4059-The Boss on Mars
+4135-Co-prime
+1695-GCD
+1709-The Balance
+1716一排列2
+1722-Cake
+1796-How Many Integers Can You Find
+1799一循环多少次?
+1808-Halloween Treats
+2049一不容易系列之（4）一考新郎
+2062-Subset Sequence
+2068-RPG的错排
+2085一核反应堆
+2152-Fruit
+2204-Eddy的爱好
+2451-Simple Addition Expression
+2461-Rectangles
+3240-Counting Binary Trees
+3398-String
+3501-Calculation 2
+4248-A Famous Stone Collector
+4254-A Famous Game
+4259-Double Dealing
+4335-What is N?
+4349-Xiao Ming's Hope
+4372-Count the Buildings
+4373-Mysterious For
+4390-Number Sequence
+4407-Sum
+4497-GCD and LCM
+4532一袱秋系列故事——安排座位
+4675-GCD of Sequence
+4746-Mophues
+4810-Wall Painting
+4869-Turn the Pokers
+4908-Best Coder Sequence
+4909-String
+5047-Sawtooth
+
+
+9:、分支限界算法（14）
+POJ：（14）
+1040-Transportation
+1041-John's Trip
+1077-Eight(ZOJ1217)
+1103-Maze（Z0J1142)
+1167-The Buses
+1324-Holedox Moving(ZOJ1361)
+1475-Pushing Boxes(Z0J1249)
+1817-Traffic Jam(Z0J2163)
+1935-Journey
+2078-Matrix
+2908-Quantum
+3322-Bloxorz I
+3635-Full Tank?(Z0J2881)
+3662-Telephone Lines
+
+
+
+题目很多，希望能给大家有所帮助。
+--------------------- 
+作者：马小酥 
+来源：CSDN 
+原文：https://blog.csdn.net/Aibiabcheng/article/details/76597297 
+版权声明：本文为博主原创文章，转载请附上博文链接！
